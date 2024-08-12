@@ -36,6 +36,9 @@ else
     elseif _G.cfig == "Gat" then
         print("not main")
         url = "https://raw.githubusercontent.com/Milleu830/Kocojca/main/PullLever.json"
+    elseif _G.cfig == "Clean" then
+        print("not main")
+        url = "https://raw.githubusercontent.com/Milleu830/Kocojca/main/PullLever.json"
     end
 end
 
