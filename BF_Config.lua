@@ -38,7 +38,7 @@ else
         url = "https://raw.githubusercontent.com/Milleu830/Kocojca/main/PullLever.json"
     elseif _G.cfig == "Clean" then
         print("not main")
-        url = "https://raw.githubusercontent.com/Milleu830/Kocojca/main/PullLever.json"
+        url = "https://raw.githubusercontent.com/GinChaCa/BF_Config/main/Clean.json"
     end
 end
 
