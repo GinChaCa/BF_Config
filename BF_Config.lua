@@ -1,12 +1,13 @@
 print("Loading Config: " .. _G.cfig)
 local url
 local main = Username
+local fragAcc = {"Acc1", "Acc2"}
 
 wait(0.3)
 
--- Function to check if the player's name is in the 'main' table
-local function isInMain(playerName)
-    for _, name in ipairs(main) do
+-- Function to check if the player's name is in a specified table
+local function isInList(list, playerName)
+    for _, name in ipairs(list) do
         if name == playerName then
             return true
         end
@@ -14,9 +15,12 @@ local function isInMain(playerName)
     return false
 end
 
-if isInMain(game.Players.LocalPlayer.Name) then
+if isInList(main, game.Players.LocalPlayer.Name) then
     print("main acc")
     url = "https://raw.githubusercontent.com/Milleu830/BFcfig/main/main.json"
+elseif isInList(fragAcc, game.Players.LocalPlayer.Name) then
+    print("frag acc")
+    url = "https://raw.githubusercontent.com/Milleu830/BFcfig/main/Frag.json"
 else
     if _G.cfig == "Trial" then
         print("not main")
