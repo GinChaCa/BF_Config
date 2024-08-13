@@ -1,7 +1,7 @@
 print("Loading Config: " .. _G.cfig)
 local url
 local main = Username
-local fragAcc = {"Acc1", "Acc2"}
+local fragAcc = FragAccounts
 
 wait(0.3)
 
