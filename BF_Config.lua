@@ -35,7 +35,7 @@ else
         url = "https://raw.githubusercontent.com/Milleu830/BFcfig/main/Frag.json"
     elseif _G.cfig == "Gat" then
         print("not main")
-        url = "https://raw.githubusercontent.com/Milleu830/Kocojca/main/PullLever.json"
+        url = "https://raw.githubusercontent.com/GinChaCa/BF_Config/main/Gat.json"
     elseif _G.cfig == "Clean" then
         print("not main")
         url = "https://raw.githubusercontent.com/GinChaCa/BF_Config/main/Clean.json"
