@@ -27,10 +27,10 @@ else
     elseif _G.cfig == "Farm" then
         print("not main")
         url = "https://raw.githubusercontent.com/Milleu830/BFcfig/main/Farm.json"
-    elseif _G.cfig == "Frag2" then
+    elseif _G.cfig == "Frag" then
         print("not main")
         url = "https://raw.githubusercontent.com/GinChaCa/BF_Config/main/Farm_Frag.json"
-    elseif _G.cfig == "Frag" then
+    elseif _G.cfig == "FragBF" then
         print("not main")
         url = "https://raw.githubusercontent.com/Milleu830/BFcfig/main/Frag.json"
     elseif _G.cfig == "Gat" then
