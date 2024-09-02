@@ -39,6 +39,9 @@ else
     elseif _G.cfig == "Clean" then
         print("not main")
         url = "https://raw.githubusercontent.com/GinChaCa/BF_Config/main/Clean.json"
+    elseif _G.cfig == "SGT" then
+        print("not main")
+        url = "https://raw.githubusercontent.com/GinChaCa/BF_Config/main/SGT.json"
     end
 end
 
